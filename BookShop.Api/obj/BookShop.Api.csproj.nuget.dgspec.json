@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj": {}
+    "D:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj": {
+    "D:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj",
+        "projectUniqueName": "D:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj",
         "projectName": "BookShop.Api",
-        "projectPath": "d:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj",
+        "projectPath": "D:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\BookShop.Api.csproj",
         "packagesPath": "C:\\Users\\Stanislav\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\obj\\",
+        "outputPath": "D:\\Documents\\Work\\Train\\Myself\\BookShop\\BookShop.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,6 +49,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
