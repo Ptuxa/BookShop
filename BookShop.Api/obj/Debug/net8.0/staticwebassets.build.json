@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RFgaS/LjlT32eHSNrzmaw1NWiCMVjDnh78voJT7+SYE=",
+  "Source": "BookShop.Api",
+  "BasePath": "_content/BookShop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
