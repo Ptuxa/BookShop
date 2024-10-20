@@ -38,4 +38,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseCors(routes =>
+{
+    routes.WithHeaders().AllowAnyHeader();
+    routes.WithOrigins("https://localhost:7270");
+    routes.WithMethods().AllowAnyMethod();
+});
+
 app.Run();
